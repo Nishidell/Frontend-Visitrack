@@ -1,9 +1,9 @@
     /* Check for overflow elemnt */
-/*
+
 * {
     outline: 1px solid red; 
 }
-*/
+
   
   /* Homepage css */
 .navbar {
@@ -29,6 +29,7 @@ a.logo {
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     word-spacing: 5px;
     margin: 0;
     padding: 0;
@@ -144,8 +145,10 @@ hr {
 
 .desc2 h2{
     position: relative;
+    display: inline-block;
     left: 9%;
 }
+
 
 
 .city {
@@ -186,6 +189,32 @@ hr {
     z-index: 1;
 }
 
+/* Section 3 Homepage */
+
+.desc4 {
+    position: relative;
+}
+
+.desc4 h1, .desc4 p {
+    position: relative;
+    left: 9%;
+    display: inline-block;
+    text-align: left; 
+}
+
+.desc4 h1 {
+    font-size: 30px;
+    margin-bottom: -3%;
+}
+
+.students {
+    position: absolute;
+    top: 10%;
+    right: 11%;
+    width: 400px;
+    height: auto; 
+    z-index: 1;
+}
 
         /* Footer  css */
 .footer {
