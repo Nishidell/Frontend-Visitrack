@@ -1,9 +1,9 @@
     /* Check for overflow elemnt */
-
+/*
 * {
     outline: 1px solid red; 
 }
-
+*/
   
   /* Homepage css */
 .navbar {
@@ -252,15 +252,22 @@ hr {
 }
 
         /* Footer  css */
-.footer {
-    position: static; 
-    background-color: #000000; 
-    color: white; 
-    padding: 5px 0; 
-    bottom: 0; 
-    width: 100%; 
-}
-
+        .footer {
+            background-color: #000000; 
+            color: white; 
+            padding: 7px 0; 
+        }
+        .section6 {
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 0 20px; 
+        }
+        #terms {
+            text-align: right; /* Align text to the right */
+        }
         /* Login  css */
 .login-section {
     position: fixed; 
