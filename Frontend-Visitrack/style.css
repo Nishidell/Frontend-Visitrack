@@ -15,7 +15,7 @@
 
 .navigation {
     position: absolute;
-    left: 10%;
+    left: 11%;
 }
 
 a.logo {
@@ -50,7 +50,7 @@ body {
     font-family: 'Lato', sans-serif;
     position: relative;
     top: 10%;
-    right: 15%;
+    right: 11%;
     text-align: right; 
     padding-top: 50px;
 }
@@ -73,7 +73,7 @@ a.register_btn {
     color: rgb(0, 0, 0); 
     padding: 15px 50px;
     position: relative;
-    left: 10%;
+    left: 15%;
     border-radius: 50px; 
     cursor: pointer;
     font-size: 16px; 
@@ -92,6 +92,7 @@ a.contact_btn {
     cursor: pointer; 
     font-size: 16px; 
     position: relative;
+    right: 2%;
     margin-top: 20px; 
     margin-bottom: 193px;
     text-decoration: none; 
@@ -128,7 +129,7 @@ hr {
 
 .desc2 h1, .desc2 h2, .desc2 p {
     position: relative;
-    left: 5%;
+    left: 9%;
     display: inline-block;
     margin-bottom: 5%;
 }
@@ -137,7 +138,7 @@ hr {
     position: absolute;
     transform: scaleX(-1);
     top: -10%;
-    right: 15%;
+    right: 11%;
     width: 450px;
     height: auto; 
     z-index: 1;
@@ -151,16 +152,17 @@ hr {
 
 .desc3 h1, .desc3 p {
     position: relative;
-    left: 40%;
+    left: 35%;
     display: inline-block;
     margin-bottom: 5%;
     margin-left: 5%;
+    text-align: right; 
 }
 
 .map {
     position: absolute;
     bottom: 5%;
-    left: 13%;
+    left: 11%;
     transform: scaleX(-1);
     width: 350px;
     height: auto; 
