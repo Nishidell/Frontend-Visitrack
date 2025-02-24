@@ -1,9 +1,9 @@
     /* Check for overflow elemnt */
-/*
+
 * {
     outline: 1px solid red; 
 }
-*/
+
   
   /* Homepage css */
 .navbar {
@@ -155,7 +155,7 @@ hr {
     position: absolute;
     transform: scaleX(-1);
     top: -1%;
-    right: 13%;
+    right: 11%;
     width: 450px;
     height: auto; 
     z-index: 1;
@@ -169,7 +169,7 @@ hr {
 
 .desc3 h1, .desc3 p {
     position: relative;
-    left: 35%;
+    left: 38%;
     display: inline-block;
     margin-bottom: 5%;
     margin-left: 5%;
