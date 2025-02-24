@@ -161,7 +161,7 @@ hr {
 
 .map {
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     left: 11%;
     transform: scaleX(-1);
     width: 350px;
