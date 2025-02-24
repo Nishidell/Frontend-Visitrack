@@ -1,7 +1,15 @@
-    /* Homepage css */
+    /* Check for overflow elemnt */
+
+* {
+    outline: 1px solid red; 
+}
+
+  
+  /* Homepage css */
 .navbar {
+    position: fixed;
     background-color: #5555554D;  
-    padding: 10px ;
+    padding: 1% 38% ;
     height: 35px;
 }
 
@@ -23,6 +31,7 @@ body {
     color: white; 
 }
 
+    /* Section 1 Homepage */
 .building {
     position: absolute;
     left: 20%;
@@ -102,6 +111,34 @@ hr {
     margin: 20px 0;
     z-index: 2;
 }
+    /* Section 2 Homepage */
+.desc2 {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    top: 10%;
+    text-align: left; 
+    padding-top: 50px;
+}
+
+.city {
+    position: relative;
+    left: 20%;
+    top: 5%; 
+    width: 500px;
+    height: auto; 
+    z-index: 1;
+}
+
+        /* Footer  css */
+.footer {
+    position: relative; 
+    background-color: #000000; 
+    color: white; 
+    padding: 5px 0; 
+    bottom: 0; 
+    width: 100%; 
+}
+
         /* Login  css */
 .login-section {
     position: fixed; 
@@ -151,14 +188,4 @@ hr {
     position: fixed;
     bottom: 90px;
     right: 180px;
-}
-
-        /* Footer  css */
-.footer {
-    background-color: #000000; 
-    color: white; 
-    padding: 5px 0; 
-    position: relative; 
-    bottom: 0; 
-    width: 100%; 
 }
