@@ -216,6 +216,41 @@ hr {
     z-index: 1;
 }
 
+.desc5 {
+    position: relative;
+    margin-top: 8%;
+    text-align: right;
+}
+
+.desc5 h1, .desc5 p {
+    position: relative;
+    left: -11%;
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    text-align: right; 
+}
+
+.desc5 h1 {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.desc5 p {
+    font-size: 15px;
+    margin-top: -1%;
+    margin-bottom: 9%;
+}
+
+.security {
+    position: absolute;
+    top: 1%;
+    left: 9%;
+    width: 450px;
+    height: auto; 
+    z-index: 1;
+}
+
         /* Footer  css */
 .footer {
     position: static; 
