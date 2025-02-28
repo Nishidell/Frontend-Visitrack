@@ -4,7 +4,7 @@
         outline: 1px solid red; 
     }
     
-      
+    @media (max-width: 1453px) {
       /* Homepage css */
     .navbar {
         position: relative;
@@ -268,6 +268,6 @@
             #terms {
                 text-align: right; /* Align text to the right */
             }
-    
+        }
     
           
