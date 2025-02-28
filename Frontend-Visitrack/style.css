@@ -7,15 +7,18 @@
   
   /* Homepage css */
 .navbar {
-    position: relative;
-    background-color: #5555554D;  
+    position: fixed;
+    background-color: #476fb2;  
     padding: 1% 46% ;
     height: 35px;
+    width: 100%;
+    z-index: 2;
+    transition: background-color 0.3s; 
 }
 
 .navigation {
     position: absolute;
-    left: 11%;
+    left: 5%;
 }
 
 a.logo {
